@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+    @import url('https://fonts.googleapis.com/css?family=Forte');
+
+    .menu {
+        width: 100%;
+        background-color: #e0a800;
+        border-bottom: 3px solid black;
+    }
+
+    .menu a {
+        font-size: 15px;
+        color: white;
+        font-size: 25px;
+        font-family: "Forte";
+        text-decoration: none;
+        text-shadow: 2px 1px 1px black;
+    }
+
+    .menu a:hover {
+        color: #cccccc;
+    }
+    .textoNav ul li {
+        display: inline-block;
+        padding-left: 10px;
+    }
+
+    .textoNav ul li a {
+        text-decoration: none;
+    }
+    

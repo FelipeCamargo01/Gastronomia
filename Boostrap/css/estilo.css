@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Merienda');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+body {
+    background-image: url(../..//Imagens/FundoGraoDesf.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.texto a {
+    text-decoration: none;
+}
+.texto a:hover{
+    color: white;
+}
+.Texto2 { 
+    font-weight: bold;
+    color: goldenrod;
+    font-family: 'Gloria Hallelujah';
+    font-size:  35px;
+    text-shadow: 1px 3px 3px black;
+}
+.LogoEntrada {
+         /* Máximo da largura da imagem */
+          width: 37%;
+          max-height: 500px;  /* Máximo da altura da imagem */
+          /* Mínimo da altura, por padrão “auto” */
+          background-repeat: no-repeat;
+}

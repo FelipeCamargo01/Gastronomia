@@ -1,0 +1,58 @@
+.texto{
+    font-size: 36px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    background-color: #e0a800;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+.texto2{
+    font-family: Times New Roman;
+    font-size: 20px;
+    margin-top: 3%;
+}
+.container{
+    display: flex;
+    width:100%;
+}
+.figure {
+    float: right;
+    width: 33%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border-style: dashed double none;
+    border-color: black; 
+    margin: 0.5em;
+    padding: 0.5em;
+    position:relative;
+}
+.figure2 {
+    float: right;
+    width: 33%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border-style: dashed double none;
+    border-color: black; 
+    margin: 0.5em;
+    padding: 0.5em;
+    position:relative;
+}
+.figure3 {
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+    position:relative;
+    border-style: dashed double none;
+    border-color: black; 
+}

@@ -1,0 +1,52 @@
+.formulario {
+    font-family: default;
+}
+.botao {
+    margin-top: 12px;
+}
+.frase {
+    font-family: fantasy;
+}
+.ImgEscola {
+    float: left;
+    position: absolute;
+}
+.corpo {
+    background-image: url(../..//Imagens/FUNDAO2.jpg);
+}
+.frase {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    background-color: #e0a800;  
+    padding-bottom: 1%;
+    font-family: forte;
+    font-size: 36px;
+}
+.formtext {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    background-color: #e0a800;
+    font-family: forte;
+    font-size: 36px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+.SobreTexto {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    background-color: #e0a800;
+    font-family: forte;
+    font-size: 36px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+.fotocarrosel {
+	border:20px inset #5d738b;
+	padding:25px;
+	background: transparent url(/bg-um.gif);
+}
