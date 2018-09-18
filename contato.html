@@ -7,7 +7,10 @@
     <link href="Boostrap/css/bootstrap_1.css" rel="stylesheet" type="text/css"/>
     <link href="Boostrap/css/estiloForm.css" rel="stylesheet" type="text/css"/>
     <link href="Boostrap/css/estiloMenu.css" rel="stylesheet" type="text/css"/>
-    <title>Document</title>
+    <link rel="stylesheet" href="Boostrap/css/footer.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Contato</title>
 </head>
 <body>
    <div class='container-fluid'>
@@ -17,7 +20,7 @@
             <ul>
                 <li>
                 <a class="navbar-brand logoMenu" href="home.html">
-                    <img src="Imagens/LogoDosMenusCinza.png" width="70" height="70">
+                    <img src="Imagens/ChapeuPreto.png" width="70" height="70">
                 </a>
                 <li>
                 <li><a href="site.html">Home</a> </li>
@@ -26,6 +29,7 @@
                 <li><a href="horario.html">Horários</a></li>
                 <li><a href="local.html">Localização</a></li>
                 <li><a href="contato.html">Contato</a></li>
+                
             </ul>
         </div>
     </nav>
@@ -40,22 +44,27 @@
                                 </div>
                 </div>
             </div>
+                        <div class="text-center">
+                            <h1>
+                                Preencha o Formulário Abaixo:
+                            </h1>
+                        </div>
                 <form>
                 <div class="form-group formulario">
                     <div class="row">
                         <div class="col-sm-3"></div>
-                        <div class="col-md-6 col-xs-12">
+                        <div class="col-sm-6 col-xs-12">
                             <label for="nome">Nome:</label>
                             <input type="text" placeholder="Informe seu nome..." id="nome" class="form-control">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-3"></div>
-                        <div class="col-md-3 col-xs-12">
+                        <div class="col-sm-3 col-xs-12">
                             <label for="email">Email:</label>
                             <input type="email" placeholder="Informe seu email de contato..." id="email" class="form-control">
                         </div>
-                        <div class="col-md-3 col-xs-12">
+                        <div class="col-sm-3 col-xs-12">
                             <label for="telefone">Telefone:</label>
                             <input type="tel" placeholder="Informe seu telefone..." id="telefone" class="form-control">
                         </div>
@@ -77,11 +86,11 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-3"></div>
-                        <div class="col-md-4 col-xs-9">
+                        <div class="col-sm-4 col-xs-9">
                             <label for="end">Endereço:</label>
                             <input type="text" id="end" class="form-control" placeholder="Informe seu endereço...">
                         </div>
-                        <div class="col-md-2 col-xs-3">
+                        <div class="col-sm-2 col-xs-3">
                             <label for="Est">Estado:</label>
                             <select id="Est" class="form-control">
                                 <option value="AC">Acre</option>
@@ -115,6 +124,33 @@
                         </div>
                     </div>
                     <div class="row">
+                        <div class="col-sm-3">
+
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="cidade">Cidade:</label>
+                            <input type="name" placeholder="Informe sua cidade" class="form-control" id="cidade">
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="CPF">CPF:</label>
+                            <input type="text" placeholder="Informe seu CPF" class="form-control" id='CPF'>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+
+                        </div>
+                        <div class="col-sm-3">
+                                <label for="Nmae">Nome da Mãe:</label>
+                                <input type="text" placeholder="Informe o nome de casado..." id="Nmae" class="form-control"> 
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="Npai">Nome da Pai:</label>
+                            <input type="text" placeholder="Informe o nome de casado..." id="Npai" class="form-control">
+                    </div>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-sm-3"></div>
                         <div class="col-sm-3">
                             <div class='botao'>
@@ -129,7 +165,20 @@
                     </div>
                 </div>
                 </form>
- 
+                
         </div>
+        <div class="footer">
+                <div class='text-center icones'>
+                        <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                        <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                        <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                    <br/>
+                    <h6>
+                    Copryght By Luiz Felipe - Rian - Giselle - Maria Fernanda
+                </h6>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>
